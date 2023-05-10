@@ -19,6 +19,16 @@ nav a {
 nav {
     position: absolute;
     top: 110px;
-    right: 0;
+    left: 780px;
 }
+.produtos li{
+    width: 940px;
+    margin: 0 0 0 0 auto;
+    display: inline-block;
+    text-align: center;
+}  
 
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+}
