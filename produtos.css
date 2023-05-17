@@ -15,6 +15,10 @@ nav a{
 
 
 }
+nav a:hover{
+    text-decoration: underline;
+    color: #c78c19;
+}
 nav{
     position: absolute;
     top: 110px;
@@ -53,4 +57,24 @@ nav{
 }
 .descrição-produto{
     font-size: 18px;
+}
+.produtos li:hover{
+    border-color: red;
+   
+}
+.produtos li:active{
+  border-color: pink;
+
+}
+
+.produtos li:hover h2{
+    font-size: 33px;
+}
+footer{
+    text-align: center;
+    background:url("./bg.jpg");
+    padding: 40px 0;
+}
+.rodape{
+    background-color: #BBBBBB;
 }
