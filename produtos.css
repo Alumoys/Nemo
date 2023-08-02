@@ -1,3 +1,7 @@
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -44,7 +48,7 @@ nav a:hover {
 	text-align: center;
 	width: 30%;
 	vertical-align: top;
-	margin: 0 1.05%;
+	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
 	border: 2px solid #000000;
@@ -96,7 +100,7 @@ main{
 form{
 	margin: 40px 0;
 }
-form label, form legend{
+form label, form p{
 	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
@@ -104,41 +108,11 @@ form label, form legend{
 .input-padrao{
 	display: block;
 	margin: 0 0 20px;
-	padding: 10px 25px;
-	width: 50%;
-
+	padding: 10px 200px;
+	width: 50px;
 }
-.checkbox{
+.checbox{
 	margin: 20px 0;
-}
-.enviar{
-   width: 40%;
-   padding: 15px 0;
-   background-color: #C78C19;
-   color: #FFFFFF;
-   font-weight: bold;
-   font-size: 16px;
-   border: none;
-   border-radius: 6px;
-   transition: 1s all; 
-   cursor: pointer;
-}
-.enviar:hover{
-	background: darkorange;
-	transform:scale(1.3) ;
-	
-}
-table{
-	margin: 20px 0 40px;
-}
-td{
-	border: 1px solid #000000;
-	padding: 8px 15px;
-}
-thead{
-	background-color: #555555;
-	color:#BBBBBB;
-	font-weight: bold;
 }
 .banner{
 	width: 100%;
@@ -147,16 +121,25 @@ thead{
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
+
 }
 .principal p{
 	margin: 0 0 1em;
 }
 .principal strong{
-	font-weight: bold;
+	font-weight: bold;	
 }
 .principal em{
 	font-style: italic;
 }
 .imagembeneficios{
 	width: 60%;
+}
+.utensilios{
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.titulo-principal{
+	clear: left;
 }
